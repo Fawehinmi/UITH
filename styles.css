@@ -1,0 +1,332 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(228, 228, 228);
+    }
+    
+    select {
+        border: none;
+        outline: none;
+        background-color: white;
+    }
+    
+    * {
+        overflow-x: hidden;
+    }
+    /* . */
+    
+    .bg-blue {
+        background: linear-gradient(to right, rgb(98, 158, 214), rgb(52, 133, 224));
+    }
+    
+    .bg-white {
+        background-color: rgb(228, 228, 228);
+    }
+    
+    .bg-lilac {
+        background-color: rgb(62, 64, 89);
+    }
+    /*  */
+    
+    .logo {
+        height: 30px;
+        width: 30px;
+        margin-left: 10px;
+    }
+    
+    .navbar {
+        background-color: white;
+    }
+    
+    .navbar-custom .navbar-brand {
+        color: rgb(124, 177, 217);
+    }
+    
+    .navbar-custom .navbar-brand:hover {
+        color: rgb(124, 177, 217);
+    }
+    
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(124, 177, 217);
+        border-bottom: 2px solid rgb(149, 177, 198);
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: rgb(124, 177, 217);
+        border-color: rgb(124, 177, 217);
+    }
+    
+    .login {
+        width: 80px;
+        padding: 4px 0px;
+        color: white;
+        background: linear-gradient(to right, rgb(33, 145, 231), rgb(13, 101, 224));
+        border: none;
+    }
+    
+    .book-btn {
+        width: 90px;
+        padding: 4px 5px;
+        color: white;
+        background: linear-gradient(to right, rgb(33, 145, 231), rgb(13, 101, 224));
+        border: none;
+    }
+    
+    .home {
+        width: 100vw;
+        position: relative;
+    }
+    
+    .intro {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .intro a {
+        text-decoration: none;
+    }
+    
+    .intro h3 {
+        margin-top: 50px;
+    }
+    
+    .intro-img {
+        position: relative;
+        height: 500px;
+    }
+    
+    .intro-img-background {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    
+    .intro-img img {
+        height: 350px;
+        position: relative;
+        z-index: 1;
+        top: 150px;
+    }
+    
+    .videos-icon {
+        color: rgb(13, 101, 224);
+        padding: 5px;
+    }
+    
+    .video-flex {
+        display: flex;
+    }
+    
+    .video-flex p {
+        color: rgb(124, 177, 217);
+    }
+    
+    .book {
+        width: 700px;
+        height: 70px;
+        background: white;
+        /* bottom: 20; */
+        position: absolute;
+        z-index: 2;
+        align-items: center;
+    }
+    
+    .features-div {
+        display: flex;
+        text-align: center;
+    }
+    
+    .features-style {
+        width: 25%;
+    }
+    
+    .features {
+        margin-top: 30px;
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .features p {
+        opacity: 0.4;
+    }
+    
+    .features h6 {
+        opacity: 0.8;
+    }
+    
+    .my-link {
+        display: none;
+    }
+    
+    .contact-2 {
+        background-color: rgb(62, 64, 89);
+        margin-top: 40px;
+        padding-top: 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: white;
+    }
+    
+    .contact {
+        position: relative;
+        padding-top: 30px;
+    }
+    
+    .features-style {
+        padding: 30px 0px;
+        min-height: 160px;
+        margin-top: 20px;
+        width: 25%;
+    }
+    
+    .special-style {
+        /* padding: 20px 0px; */
+        min-height: 180px;
+        width: 25%;
+        position: relative;
+    }
+    
+    .features-div {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .style {
+        position: relative;
+    }
+    
+    .style-it {
+        background: linear-gradient(to right, rgb(33, 145, 231), rgb(13, 101, 224));
+        position: absolute;
+        z-index: 1;
+        min-height: 160px;
+        top: 0px;
+    }
+    
+    .videos-section h3 {
+        font-size: 20px;
+    }
+    
+    .my-link {
+        display: none;
+        color: white;
+        opacity: 0.8;
+        margin-top: 10px;
+    }
+    
+    .covid button {
+        width: 80px;
+        padding: 4px 0px;
+        color: white;
+        border: none;
+        text-align: center;
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    .covid img {
+        height: 70px;
+        width: 70px;
+        /* object-fit: contain; */
+        border-radius: 100%;
+        border: 5px solid rgb(62, 64, 89);
+        margin: 10px;
+    }
+    
+    .contact a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .contact-1 {
+        background: linear-gradient(to right, rgb(33, 145, 231), rgb(13, 101, 224));
+        padding: 20px 30px;
+        color: white;
+        position: absolute;
+        left: 5%;
+    }
+    
+    .contact-1 p {
+        opacity: 0.8;
+    }
+    
+    @media screen and (max-width:778px) {
+        .intro {
+            text-align: center;
+        }
+        .my-link {
+            display: block;
+        }
+        .contact p {
+            font-size: 12px
+        }
+        .video-flex {
+            justify-content: center;
+        }
+        .navbar-light .navbar-nav .nav-link:hover {
+            border-bottom: none;
+        }
+        .book,
+        .book-header {
+            display: none;
+        }
+        .intro-img {
+            height: 220px;
+            /* top: 150px; */
+        }
+        .intro-img-background {
+            height: 200px;
+        }
+        .intro-img img {
+            height: 200px;
+            top: 20px;
+        }
+        .features-div {
+            flex-direction: column;
+        }
+        .features-style,
+        .special-style {
+            width: 100%;
+            margin-top: 0px;
+        }
+        .style-it {
+            position: relative;
+        }
+        .special-style {
+            padding: 0px;
+        }
+        .features {
+            margin-top: 10px;
+        }
+        .special-style,
+        .features-style,
+        .style-it {
+            min-height: 100px;
+        }
+        .contact-2 {
+            display: none;
+        }
+        .contact-1 {
+            position: relative;
+            left: 0px;
+        }
+    }
+    
+    @media screen and (max-width:1036px) {
+        .covid img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+    
+    @media screen and (max-width:833px) {
+        .covid {
+            display: none;
+        }
+    }
